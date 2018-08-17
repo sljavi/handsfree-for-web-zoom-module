@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module defines a module 1`] = `
+Object {
+  "contexts": Array [
+    Object {
+      "commands": Array [
+        Object {
+          "action": [Function],
+          "group": "i18n-group.zoom",
+          "help": "i18n-help.zoom-out",
+          "name": "i18n-command.zoom-out",
+        },
+        Object {
+          "action": [Function],
+          "group": "i18n-group.zoom",
+          "help": "i18n-help.zoom-in",
+          "name": "i18n-command.zoom-in",
+        },
+        Object {
+          "action": [Function],
+          "group": "i18n-group.zoom",
+          "help": "i18n-help.reset-zoom",
+          "name": "i18n-command.reset-zoom",
+        },
+      ],
+      "context": "root",
+      "i18n": Object {
+        "en": Object {
+          "command.reset-zoom": "reset zoom",
+          "command.zoom-in": "zoom in",
+          "command.zoom-out": "zoom out",
+          "group.zoom": "Zoom",
+          "help.reset-zoom": "Restore the zoom to the default level",
+          "help.zoom-in": "Zooms in the current tab",
+          "help.zoom-out": "Zooms out the current tab",
+        },
+        "es": Object {
+          "command.reset-zoom": "restaurar",
+          "command.zoom-in": "agrandar",
+          "command.zoom-out": "achicar",
+          "group.zoom": "Zoom",
+          "help.reset-zoom": "Restaura el tamaño normal del sitio",
+          "help.zoom-in": "Incrementa el tamaño del contenido del sitio",
+          "help.zoom-out": "Decrementa el tamaño del contenido del sitio",
+        },
+      },
+    },
+  ],
+  "description": "i18n-description",
+  "i18n": Object {
+    "en": Object {
+      "description": "Commands useful to zoom in and zoom out the website.",
+      "name": "Zoom",
+    },
+    "es": Object {
+      "description": "Comandos útiles para cambiar el tamaño de los contentidos del sitio web.",
+      "name": "Zoom",
+    },
+  },
+  "icon": "fa fa-search-plus",
+  "name": "i18n-name",
+}
+`;
+
+exports[`Module resetZoom action calls background action 1`] = `
+Array [
+  Array [
+    Object {
+      "resetZoom": true,
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`Module zoomIn action calls background action 1`] = `
+Array [
+  Array [
+    Object {
+      "zoomIn": true,
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`Module zoomOut action calls background action 1`] = `
+Array [
+  Array [
+    Object {
+      "zoomOut": true,
+    },
+    [Function],
+  ],
+]
+`;
