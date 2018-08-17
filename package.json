@@ -1,7 +1,7 @@
 {
   "name": "handsfree-for-web-zoom-module",
   "description": "Zoom module implementation for Handsfree for web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "lint": "eslint ./src ./tests",
@@ -34,7 +34,7 @@
     "webpack-bundle-size-analyzer": "^2.7.0",
     "webpack-cli": "^2.0.14"
   },
-  "main": "dist/handsfree-for-web-zoom-module.js",
+  "main": "dist/zoom.js",
   "author": "Javier Perez",
   "bugs": {
     "url": "https://github.com/sljavi/handsfree-for-web-zoom-module/issues"
