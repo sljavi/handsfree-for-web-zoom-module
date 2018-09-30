@@ -11,6 +11,6 @@ npm install --save handsfree-for-web-zoom-module
 ```
 
 ## Supported commands
-  - `zoom in`: Restore the zoom level of the current tab
-  - `zoom out`: Restore the zoom level of the current tab
+  - `zoom in`: Increase the zoom level of the current tab
+  - `zoom out`: Decrease the zoom level of the current tab
   - `reset zoom`: Restore the zoom level of the current tab
