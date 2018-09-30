@@ -45,8 +45,14 @@
     "url": "git+https://github.com/sljavi/handsfree-for-web-zoom-module.git"
   },
   "keywords": [
-    "handsfree for web", "voice commands", "zoom", "zoom in", "zoom out",
-    "speech recognition", "browser", "google chrome"
+    "handsfree for web",
+    "voice commands",
+    "zoom",
+    "zoom in",
+    "zoom out",
+    "speech recognition",
+    "browser",
+    "google chrome"
   ],
   "jest": {
     "testURL": "http://localhost"
