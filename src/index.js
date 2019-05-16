@@ -96,6 +96,15 @@ export default {
         'help.zoom-out': 'Decrementa el tamaño del contenido del sitio',
         'command.reset-zoom': 'restaurar',
         'help.reset-zoom': 'Restaura el tamaño normal del sitio'
+      },
+      pt: {
+        'group.zoom': 'Zoom',
+        'command.zoom-in': 'aumentar zoom',
+        'help.zoom-in': 'Aumenta o zoom na guia atual',
+        'command.zoom-out': 'diminuir zoom',
+        'help.zoom-out': 'Diminuir o zoom na guia atual',
+        'command.reset-zoom': 'resetar zoom',
+        'help.reset-zoom': 'Restaura o zoom para o estado original da guia'
       }
     }
   }],
@@ -107,6 +116,10 @@ export default {
     es: {
       name: 'Zoom',
       description: 'Comandos útiles para cambiar el tamaño de los contentidos del sitio web.'
+    },
+    pt: {
+      name: 'Zoom',
+      description: 'Comando utilizado para aumentar e diminuir o zoom na guia.'
     }
   }
 }

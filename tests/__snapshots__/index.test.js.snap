@@ -44,6 +44,15 @@ Object {
           "help.zoom-in": "Incrementa el tamaño del contenido del sitio",
           "help.zoom-out": "Decrementa el tamaño del contenido del sitio",
         },
+        "pt": Object {
+          "command.reset-zoom": "resetar zoom",
+          "command.zoom-in": "aumentar zoom",
+          "command.zoom-out": "diminuir zoom",
+          "group.zoom": "Zoom",
+          "help.reset-zoom": "Restaura o zoom para o estado original da guia",
+          "help.zoom-in": "Aumenta o zoom na guia atual",
+          "help.zoom-out": "Diminuir o zoom na guia atual",
+        },
       },
     },
   ],
@@ -55,6 +64,10 @@ Object {
     },
     "es": Object {
       "description": "Comandos útiles para cambiar el tamaño de los contentidos del sitio web.",
+      "name": "Zoom",
+    },
+    "pt": Object {
+      "description": "Comando utilizado para aumentar e diminuir o zoom na guia.",
       "name": "Zoom",
     },
   },
